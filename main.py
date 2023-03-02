@@ -14,7 +14,7 @@ def weather(request):
   #transform date to appropiate format
   query_date = date(query_date['year'], query_date['month'], query_date['day'])
 
-  api_key = "2eb5c148be02dc9c4d2698924d059a3a"
+  api_key = "**************"
   endpoint = 'https://api.openweathermap.org/data/2.5/forecast'
   #complete_url = base_url + "APPID=" + api_key + "&q=" + city_name
   #specify parameters for query
